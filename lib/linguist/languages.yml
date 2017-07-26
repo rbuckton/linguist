@@ -1545,6 +1545,18 @@ Gradle:
   tm_scope: source.groovy.gradle
   ace_mode: text
   language_id: 136
+Grammarkdown:
+  type: markup
+  aliases:
+  - gmd
+  - grammar
+  ace_mode: text # need to add?
+  wrap: false
+  extensions:
+  - ".grammar"
+  - ".gmd"
+  searchable: true
+  tm_scope: source.grammar
 Grammatical Framework:
   type: programming
   aliases:
@@ -3755,7 +3767,7 @@ Ring:
   - .ring
   tm_scope: source.ring
   ace_mode: text
-  language_id: 431  
+  language_id: 431
 RobotFramework:
   type: programming
   extensions:
